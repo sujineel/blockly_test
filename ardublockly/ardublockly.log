@@ -1,0 +1,189 @@
+2021-01-07T04:23:04.784Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-01-07T04:23:04.785Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\bplab\github\blockly_test\ardublockly
+2021-01-07T04:23:04.785Z - info: [ArdublocklyElec] OS detected: win32
+2021-01-07T04:23:04.864Z - info: [ServerMgr] Command: C:\Users\bplab\github\blockly_test\ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-01-07T04:23:05.319Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\bplab\github\blockly_test\ardublockly
+Selected server root: C:\Users\bplab\github\blockly_test\ardublockly
+
+
+======= Loading Settings =======
+
+Settings file corrupted or not found in:
+	 C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+Settings will be set to the default values.
+
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\bplab\github\blockly_test\ardublockly
+	Load IDE option: open
+
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-07T04:25:26.996Z - warn: [ArdublocklyElec] Page failed to load (-102). The server is probably not yet running. Trying again in 200 ms.
+2021-01-07T04:25:29.379Z - warn: [ArdublocklyElec] Page failed to load (-102). The server is probably not yet running. Trying again in 200 ms.
+2021-01-07T04:25:31.476Z - warn: [ArdublocklyElec] Page failed to load (-102). The server is probably not yet running. Trying again in 200 ms.
+2021-01-07T04:25:33.836Z - warn: [ArdublocklyElec] Page failed to load (-102). The server is probably not yet running. Trying again in 200 ms.
+2021-01-07T04:25:35.923Z - warn: [ArdublocklyElec] Page failed to load (-102). The server is probably not yet running. Trying again in 200 ms.
+2021-01-07T04:25:38.025Z - info: [ServerMgr] Server stopped.
+2021-01-07T04:25:38.033Z - warn: [ArdublocklyElec] Page failed to load (0). The server is probably not yet running. Trying again in 200 ms.
+2021-01-07T04:26:09.841Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-01-07T04:26:09.841Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\bplab\github\blockly_test\ardublockly
+2021-01-07T04:26:09.841Z - info: [ArdublocklyElec] OS detected: win32
+2021-01-07T04:26:09.906Z - info: [ServerMgr] Command: C:\Users\bplab\github\blockly_test\ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-01-07T04:26:10.269Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\bplab\github\blockly_test\ardublockly
+Selected server root: C:\Users\bplab\github\blockly_test\ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+The provided compiler path in the settings file is not valid:
+	None
+Default compiler path set:
+	None
+
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\bplab\github\blockly_test\ardublockly
+	Load IDE option: open
+
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-07T04:27:10.303Z - info: [ServerMgr] Server stopped.
+2021-01-07T04:30:44.159Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-01-07T04:30:44.160Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\bplab\github\blockly_test\ardublockly
+2021-01-07T04:30:44.160Z - info: [ArdublocklyElec] OS detected: win32
+2021-01-07T04:30:44.213Z - info: [ServerMgr] Command: C:\Users\bplab\github\blockly_test\ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-01-07T04:30:44.575Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\bplab\github\blockly_test\ardublockly
+Selected server root: C:\Users\bplab\github\blockly_test\ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\bplab\github\blockly_test\ardublockly
+	Load IDE option: open
+
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-07T04:32:27.964Z - info: [ArdublocklySrv] 
+
+======= Starting Server =======
+
+Setting HTTP Server Document Root to: 
+	C:\Users\bplab\github\blockly_test\ardublockly
+
+Launching the HTTP service...
+
+Arduino Board set to:
+	Uno
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-07T04:37:10.855Z - info: [ServerMgr] Server stopped.
+2021-01-07T04:37:10.867Z - info: [ArdublocklySrv] Process exited with code null
+2021-01-07T04:57:59.060Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-01-07T04:57:59.060Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\bplab\github\blockly_test\ardublockly
+2021-01-07T04:57:59.060Z - info: [ArdublocklyElec] OS detected: win32
+2021-01-07T04:57:59.115Z - info: [ServerMgr] Command: C:\Users\bplab\github\blockly_test\ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-01-07T04:57:59.432Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\bplab\github\blockly_test\ardublockly
+Selected server root: C:\Users\bplab\github\blockly_test\ardublockly
+
+
+======= Loading Settings =======
+
+Settings file corrupted or not found in:
+	 C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+Settings will be set to the default values.
+
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\bplab\github\blockly_test\ardublockly
+	Load IDE option: open
+
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-07T04:58:11.268Z - info: [ServerMgr] Server stopped.
+2021-01-07T04:58:11.274Z - info: [ArdublocklySrv] Process exited with code null
