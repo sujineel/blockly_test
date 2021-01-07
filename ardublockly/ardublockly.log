@@ -147,6 +147,7 @@ Settings file saved to:
 
 2021-01-07T04:37:10.855Z - info: [ServerMgr] Server stopped.
 2021-01-07T04:37:10.867Z - info: [ArdublocklySrv] Process exited with code null
+<<<<<<< HEAD
 2021-01-07T04:57:59.060Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
 2021-01-07T04:57:59.060Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\bplab\github\blockly_test\ardublockly
 2021-01-07T04:57:59.060Z - info: [ArdublocklyElec] OS detected: win32
@@ -187,3 +188,5 @@ Settings file saved to:
 
 2021-01-07T04:58:11.268Z - info: [ServerMgr] Server stopped.
 2021-01-07T04:58:11.274Z - info: [ArdublocklySrv] Process exited with code null
+=======
+>>>>>>> 03219d6f01daf3905f42139fcb5c10ebed102ef4
