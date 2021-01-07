@@ -227,5 +227,22 @@ Ardublockly.TOOLBOX_XML =
 '    <block type="spi_setup"></block>' +
 '    <block type="spi_transfer"></block>' +
 '    <block type="spi_transfer_return"></block>' +
-'  </category>' +
+'  </category>'+
+'  <sep></sep>'+
+'  <category id="catLED" name="LED">' +
+'    <block type="io_pulsein">' +
+'      <value name="PULSETYPE">' +
+'        <shadow type="io_highlow"></shadow>' +
+'      </value>' +
+'    </block>' +
+'    <block type="io_pulsetimeout">' +
+'      <value name="PULSETYPE">' +
+'        <shadow type="io_highlow"></shadow>' +
+'      </value>' +
+'      <value name="TIMEOUT">' +
+'        <block type="math_number"></block>' +
+'      </value>'+
+'    </block>' +
+'  </category>'+
+'  <sep></sep>'+
 '</xml>';
