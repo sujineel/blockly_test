@@ -231,8 +231,6 @@ Ardublockly.TOOLBOX_XML =
 '  <sep></sep>'+
 '  <category id="catLED" name="LED">' +
 '    <block type="3_led"></block>'+
-
-
 '  </category>'+
 '  <sep></sep>'+
 '</xml>';

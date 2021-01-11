@@ -22,35 +22,30 @@ Blockly.Blocks.io.HUE = 250;
 
 Blockly.Blocks['3_led'] = {
   init: function() {
+    this.appendDummyInput();
     this.appendDummyInput()
-        .setAlign(Blockly.ALIGN_CENTRE)
-        .appendField("3색LED ");
+        .setAlign(Blockly.ALIGN_LEFT)
+        .appendField("3색LED ")
+        .appendField(new Blockly.FieldImage("https://www.gstatic.com/codesite/ph/images/star_on.gif", 15, 15, { alt: "*", flipRtl: "FALSE" })); //센서 이미지 추가
     this.appendDummyInput()
-        .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Red_PIN")
-        .appendField(new Blockly.FieldDropdown(
-            Blockly.Arduino.Boards.selected.pwmPins), 'Red_PIN');//3, 5, 6, 8, 10, 11
+        .appendField("  빨간색LED   ")
+        .appendField(new Blockly.FieldDropdown(Blockly.Arduino.Boards.selected.pwmPins), 'Red_PIN');
     this.appendDummyInput()
-        .setAlign(Blockly.ALIGN_CENTRE)
-        .appendField("  R(0~255)")
-        .appendField(new Blockly.FieldNumber(0, 0, 255), 'Red_Value');
+        .appendField("  빨(0~255)    ")
+        .appendField(new Blockly.FieldNumber(0, 0, 255), "Red_Value");
     this.appendDummyInput()
-        .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Green_PIN")
-        .appendField(new Blockly.FieldDropdown(Blockly.Arduino.Boards.selected.pwmPins), 'Green_PIN');//3, 5, 6, 8, 10, 11
+        .appendField("  초록색LED   ")
+        .appendField(new Blockly.FieldDropdown(Blockly.Arduino.Boards.selected.pwmPins), 'Green_PIN');
     this.appendDummyInput()
-        .setAlign(Blockly.ALIGN_CENTRE)
-        .appendField("  G(0~255)")
-        .appendField(new Blockly.FieldNumber(0, 0, 255), 'Green_Value');
+        .appendField("  초(0~255)    ")
+        .appendField(new Blockly.FieldNumber(0, 0, 255), "Green_Value");
     this.appendDummyInput()
-        .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Blue_PIN")
-        .appendField(new Blockly.FieldDropdown(
-            Blockly.Arduino.Boards.selected.pwmPins), 'Blue_PIN');//3, 5, 6, 8, 10, 11
+        .appendField("  파란색LED   ")
+        .appendField(new Blockly.FieldDropdown(Blockly.Arduino.Boards.selected.pwmPins), 'Blue_PIN');
     this.appendDummyInput()
-        .setAlign(Blockly.ALIGN_CENTRE)
-        .appendField("  B(0~255)")
-        .appendField(new Blockly.FieldNumber(0, 0, 255), 'Blue_Value');
+        .appendField("  파(0~255)    ")
+        .appendField(new Blockly.FieldNumber(0, 0, 255), "Blue_Value");
+    this.appendDummyInput();
     this.setInputsInline(false);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
@@ -66,4 +61,5 @@ Blockly.Blocks['3_led'] = {
     Blockly.Arduino.Boards.refreshBlockFieldDropdown(
         this, 'Blue_PIN', 'pwmPins');
 }
+
 };
