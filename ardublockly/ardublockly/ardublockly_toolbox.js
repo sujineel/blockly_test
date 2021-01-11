@@ -229,8 +229,10 @@ Ardublockly.TOOLBOX_XML =
 '    <block type="spi_transfer_return"></block>' +
 '  </category>'+
 '  <sep></sep>'+
+'  <category id="catSmartCity" name="smartcity">' +
 '  <category id="catLED" name="LED">' +
 '    <block type="3_led"></block>'+
+'  </category>'+
 '  </category>'+
 '  <sep></sep>'+
 '</xml>';

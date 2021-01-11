@@ -93,5 +93,6 @@ Ardublockly.LOCALISED_TEXT = {
   catAudio: "오디오",
   catMotors: "서보모터",
   catComms: "통신",
-  catLED: "SmartCityLED"
+  catSmartCity:"스마트시티",
+  catLED: "3색LED"
 };
