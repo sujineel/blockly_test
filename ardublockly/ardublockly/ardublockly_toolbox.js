@@ -230,19 +230,9 @@ Ardublockly.TOOLBOX_XML =
 '  </category>'+
 '  <sep></sep>'+
 '  <category id="catLED" name="LED">' +
-'    <block type="io_pulsein">' +
-'      <value name="PULSETYPE">' +
-'        <shadow type="io_highlow"></shadow>' +
-'      </value>' +
-'    </block>' +
-'    <block type="io_pulsetimeout">' +
-'      <value name="PULSETYPE">' +
-'        <shadow type="io_highlow"></shadow>' +
-'      </value>' +
-'      <value name="TIMEOUT">' +
-'        <block type="math_number"></block>' +
-'      </value>'+
-'    </block>' +
+'    <block type="3_led"></block>'+
+
+
 '  </category>'+
 '  <sep></sep>'+
 '</xml>';
