@@ -36,10 +36,14 @@ Blockly.Arduino['3_led'] = function(block) {
   var Red_Value = block.getFieldValue('Red_Value');
   var Green_Value = block.getFieldValue('Green_Value');
   var Blue_Value = block.getFieldValue('Blue_Value');
-
-  //var stateOutput = Blockly.Arduino.valueToCode(
-      //block, 'NUM', Blockly.Arduino.ORDER_ATOMIC) || '0';
-
+  
+  if(Red_Value<0 || Green_Value<0 || Blue_Value<0 || Red_Value >255 || Green_Value>255 || Blue_Value>255){
+     block.setWarningText('The analogue value set must be between 0 and 255','pwm_value');
+  }
+  if(isNaN(Red_Value) ||isNaN(Green_Value) ||isNaN(Blue_Value)){
+      //alert(typeof Red_Value);
+      block.setWarningText('The analogue value set must be between 0 and 255','pwm_value');
+  }
 
   var pinSetupCode1 = 'pinMode(' + Red_Pin + ', OUTPUT);';
   var pinSetupCode2 = 'pinMode(' + Green_Pin + ', OUTPUT);';
@@ -48,13 +52,7 @@ Blockly.Arduino['3_led'] = function(block) {
   Blockly.Arduino.addSetup('io_' + Red_Pin, pinSetupCode1, false);
   Blockly.Arduino.addSetup('io_' + Green_Pin, pinSetupCode2, false);
   Blockly.Arduino.addSetup('io_' + Blue_Pin, pinSetupCode3, false);
-  // Warn if the input value is out of range
-  // if ((stateOutput < 0) || (stateOutput > 255)) {
-  //   block.setWarningText('The analogue value set must be between 0 and 255',
-  //                        'pwm_value');
-  // } else {
-  //   block.setWarningText(null, 'pwm_value');
-  // }
+
 
   var code = 'analogWrite(' + Red_Pin + ', ' + Red_Value + ');\n'+
   'analogWrite(' + Green_Pin + ', ' + Green_Value + ');\n'+
