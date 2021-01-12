@@ -45,7 +45,6 @@ Blockly.Blocks['3_led'] = {
     this.appendDummyInput()
         .appendField("  파(0~255)    ")
         .appendField(new Blockly.FieldNumber(0, 0, 255), "Blue_Value");
-    this.appendDummyInput();
     this.setInputsInline(false);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);

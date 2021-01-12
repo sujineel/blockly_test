@@ -230,9 +230,12 @@ Ardublockly.TOOLBOX_XML =
 '  </category>'+
 '  <sep></sep>'+
 '  <category id="catSmartCity" name="smartcity">' +
-'  <category id="catLED" name="LED">' +
-'    <block type="3_led"></block>'+
-'  </category>'+
+'     <category id="catLED" name="LED">' +
+'        <block type="3_led"></block>'+
+'      </category>'+
+'     <category id="catUltra_sonic" name="Ultra_sonic">' +
+'        <block type="ultra_sonic"></block>'+
+'      </category>'+
 '  </category>'+
 '  <sep></sep>'+
 '</xml>';
