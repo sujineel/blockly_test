@@ -236,6 +236,48 @@ Ardublockly.TOOLBOX_XML =
 '     <category id="catUltra_sonic" name="Ultra_sonic">' +
 '        <block type="ultra_sonic"></block>'+
 '      </category>'+
+'     <category id="catAudio" name="Audio">' +
+'       <block type="io_tone">' +
+'         <field name="TONEPIN">0</field>' +
+'           <value name="FREQUENCY">' +
+'           <shadow type="math_number">' +
+'             <field name="NUM">220</field>' +
+'           </shadow>' +
+'           </value>' +
+'       </block>' +
+'       <block type="io_notone"></block>' +
+'     </category>' +
+'     <category id="catMotors" name="Motors">' +
+'       <block type="servo_write">' +
+'         <value name="SERVO_ANGLE">' +
+'             <block type="math_number">' +
+'               <field name="NUM">90</field>' +
+'             </block>' +
+'         </value>' +
+'         </block>' +
+'        <block type="servo_read"></block>' +
+'           <block type="stepper_config">' +
+'             <field name="STEPPER_PIN1">1</field>' +
+'               <field name="STEPPER_PIN2">2</field>' +
+'                <value name="STEPPER_STEPS">' +
+'                 <block type="math_number">' +
+'                   <field name="NUM">100</field>' +
+'                 </block>' +
+'                </value>' +
+'               <value name="STEPPER_SPEED">' +
+'                <block type="math_number">' +
+'                 <field name="NUM">10</field>' +
+'                </block>' +
+'               </value>' +
+'           </block>' +
+'        <block type="stepper_step">' +
+'           <value name="STEPPER_STEPS">' +
+'              <block type="math_number">' +
+'                <field name="NUM">10</field>' +
+'              </block>' +
+'           </value>' +
+'       </block>' +
+'     </category>' +
 '  </category>'+
 '  <sep></sep>'+
 '</xml>';
