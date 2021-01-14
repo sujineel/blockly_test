@@ -236,12 +236,6 @@ Ardublockly.TOOLBOX_XML =
 '     <category id="catUltra_sonic" name="Ultra_sonic">' +
 '        <block type="ultra_sonic"></block>'+
 '      </category>'+
-<<<<<<< HEAD
-'      <category id="catillu" name="illu">' +
-'        <block type="illuminance_digital"></block>'+
-'        <block type="illuminance_analog"></block>'+
-'      </category>'+
-=======
 '     <category id="catAudio" name="Audio">' +
 '       <block type="io_tone">' +
 '         <field name="TONEPIN">0</field>' +
@@ -284,7 +278,10 @@ Ardublockly.TOOLBOX_XML =
 '           </value>' +
 '       </block>' +
 '     </category>' +
->>>>>>> 378c37fb3835080038a8cd2493c93d4855b8b1cf
+'      <category id="catillu" name="illu">' +
+'        <block type="illuminance_digital"></block>'+
+'        <block type="illuminance_analog"></block>'+
+'     </category>' +
 '  </category>'+
 '  <sep></sep>'+
 '</xml>';
