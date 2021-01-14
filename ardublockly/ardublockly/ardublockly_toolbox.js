@@ -236,6 +236,10 @@ Ardublockly.TOOLBOX_XML =
 '     <category id="catUltra_sonic" name="Ultra_sonic">' +
 '        <block type="ultra_sonic"></block>'+
 '      </category>'+
+'      <category id="catillu" name="illu">' +
+'        <block type="illuminance_digital"></block>'+
+'        <block type="illuminance_analog"></block>'+
+'      </category>'+
 '  </category>'+
 '  <sep></sep>'+
 '</xml>';

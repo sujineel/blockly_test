@@ -96,4 +96,6 @@ Ardublockly.LOCALISED_TEXT = {
   catSmartCity:"스마트시티",
   catLED: "3색LED",
   catUltra_sonic: "초음파센서"
+  catUltra_sonic: "초음파센서",
+  catillu:"조도센서"
 };

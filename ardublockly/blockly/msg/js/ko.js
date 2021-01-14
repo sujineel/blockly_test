@@ -8,6 +8,7 @@ goog.require('Blockly.Msg');
 
 Blockly.Msg.ADD_COMMENT = "댓글 추가";
 Blockly.Msg.ARD_ANALOGREAD = "디지털 값 읽기 핀번호";
+Blockly.Msg.ARD_ANALOGREAD = "아날로그 값 읽기 핀번호";
 Blockly.Msg.ARD_ANALOGREAD_TIP = "0~1024 값을 반환";
 Blockly.Msg.ARD_ANALOGWRITE = "아날로그 값 설정 핀번호";
 Blockly.Msg.ARD_ANALOGWRITE_TIP = "Write analog value between 0 and 255 to a specific PWM Port";  // untranslated
