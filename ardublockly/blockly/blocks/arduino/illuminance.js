@@ -37,7 +37,7 @@ Blockly.Blocks['illuminance_analog'] = {
         .appendField(Blockly.Msg.ARD_ANALOGREAD)
         .appendField(new Blockly.FieldDropdown(
             Blockly.Arduino.Boards.selected.analogPins), 'PIN');
-    this.setOutput(true, Blockly.Types.NUMBER.output);
+    this.setInputsInline(false);
     this.setTooltip(Blockly.Msg.ARD_ANALOGREAD_TIP);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
@@ -74,8 +74,8 @@ Blockly.Blocks['illuminance_digital'] = {
         .appendField(Blockly.Msg.ARD_DIGITALREAD)
         .appendField(new Blockly.FieldDropdown(
             Blockly.Arduino.Boards.selected.digitalPins), 'PIN');
-    this.setOutput(true, Blockly.Types.BOOLEAN.output);
-    this.setTooltip(Blockly.Msg.ARD_DIGITALREAD_TIP);
+    this.setInputsInline(false);
+    this.setTooltip(Blockly.Msg.ARD_ANALOGREAD_TIP);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(210);
