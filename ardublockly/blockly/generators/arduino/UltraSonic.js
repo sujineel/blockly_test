@@ -28,7 +28,7 @@ Blockly.Arduino['ultra_sonic'] = function(block) {
       block, Trig_Pin, Blockly.Arduino.PinTypes.OUTPUT, 'Digital Write');
   var Echo_Pin = block.getFieldValue('Echo');
   Blockly.Arduino.reservePin(
-      block, Echo_Pin, Blockly.Arduino.PinTypes.OUTPUT, 'Digital Write');
+      block, Echo_Pin, Blockly.Arduino.PinTypes.INPUT, 'Digital Write');
 
 
   var pinSetupCode1 = 'pinMode(' + Trig_Pin + ', OUTPUT);';
