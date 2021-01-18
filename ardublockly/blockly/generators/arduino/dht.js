@@ -16,17 +16,17 @@ goog.require('Blockly.Arduino');
  */
 Blockly.Arduino['dht'] = function(block) {
   var dhtpin = block.getFieldValue('dhtpin');
-  var dhtName = 'dht';
+  var dhtName = 'dht'+ dhtpin;
 
   Blockly.Arduino.reservePin(block, dhtpin, Blockly.Arduino.PinTypes.dht, 'dhtpin');
 
-  Blockly.Arduino.addInclude('dht_' + dhtpin, '#include "DHT.h"');
+  Blockly.Arduino.addInclude('dht', '#include "DHT.h"');
   //Blockly.Arduino.addDeclaration('servo_' + pinKey, 'Servo ' + servoName + ';');
-  Blockly.Arduino.addDeclaration('dht_', '#define DHTPIN '+ dhtpin +'\n' + '#define DHTTYPE DHT11' +'\n' +
-  'DHT dht(DHTPIN, DHTTYPE)' +';')
+  Blockly.Arduino.addDeclaration('dht_'+ dhtpin, '#define DHTPIN '+ dhtpin +'\n' + '#define DHTTYPE DHT11' +'\n' +
+  'DHT dht'+dhtpin+'(DHTPIN, DHTTYPE)' +';')
   //var setupCode = servoName + '.attach(' + pinKey + ');';
-  var setupCode = dhtName +'.begin();';
-  Blockly.Arduino.addSetup('dht_', setupCode, true);
+  var setupCode = 'dht'+ dhtpin +'.begin();';
+  Blockly.Arduino.addSetup('dht_' + dhtpin, setupCode, true);
 /*
   float humid = dht.readHumidity();
 	float temp = dht.readTemperature();
