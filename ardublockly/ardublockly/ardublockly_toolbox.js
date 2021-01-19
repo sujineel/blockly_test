@@ -285,6 +285,10 @@ Ardublockly.TOOLBOX_XML =
 '      <category id="catdht" name="dht">' +
 '        <block type="dht"></block>'+
 '     </category>' +
+'      <category id="catlcd" name="lcd">' +
+'        <block type="lcd"></block>'+
+'        <block type="lcd_text"></block>'+
+'     </category>' +
 '  </category>'+
 '  <sep></sep>'+
 '</xml>';
