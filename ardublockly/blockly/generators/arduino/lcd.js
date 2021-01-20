@@ -52,3 +52,53 @@ Blockly.Arduino['lcd_text'] = function(block) { //lcd 문자열 출력해주는 
   return code;
 
 };
+
+Blockly.Arduino['lcd_clear'] = function(block) {
+
+  var code = 'lcd.clear();\n';
+  return code;
+
+};
+
+Blockly.Arduino['lcd_backlight'] = function(block) {
+
+  var code = 'lcd.backlight();\n';
+  return code;
+
+};
+
+Blockly.Arduino['lcd_noBacklight'] = function(block) {
+
+  var code = 'lcd.noBacklight();\n';
+  return code;
+
+};
+
+Blockly.Arduino['lcd_scrollDisplayRight'] = function(block) {
+
+  var code = 'lcd.scrollDisplayRight();\n';
+  return code;
+
+};
+
+Blockly.Arduino['lcd_scrollDisplayLeft'] = function(block) {
+
+  var code = 'lcd.scrollDisplayLeft();\n';
+  return code;
+
+};
+
+Blockly.Arduino['lcd_autoscroll'] = function(block) {
+
+  var code = 'lcd.autoscroll();\n';
+  return code;
+
+};
+
+Blockly.Arduino['lcd_write'] = function(block) {
+  var content = block.getFieldValue('content');
+  
+  var code = 'lcd.write('+content+');\n';
+  return code;
+
+};

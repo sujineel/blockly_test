@@ -69,3 +69,88 @@ Blockly.Blocks['lcd_text'] = {
  this.setHelpUrl("");
   }
 };
+
+Blockly.Blocks['lcd_clear'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("화면 내용 지우기");
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(160);
+ this.setTooltip("lcd.clear() 함수 블럭입니다.");
+ this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['lcd_backlight'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("백라이트 켜기");
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(160);
+ this.setTooltip("lcd.backlight() 함수 블럭입니다.");
+ this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['lcd_noBacklight'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("백라이트 끄기");
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(160);
+ this.setTooltip("lcd.noBacklight() 함수 블럭입니다.");
+ this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['lcd_scrollDisplayRight'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("우측으로 1칸 스크롤");
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(160);
+ this.setTooltip("lcd.scrollDisplayRight() 함수 블럭입니다.");
+ this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['lcd_scrollDisplayLeft'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("좌측으로 1칸 스크롤");
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(160);
+ this.setTooltip("lcd.scrollDisplayLeft() 함수 블럭입니다.");
+ this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['lcd_autoscroll'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("우에서 좌로 스크롤");
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(160);
+ this.setTooltip("lcd.autoscroll() 함수 블럭입니다.");
+ this.setHelpUrl("");
+  }
+};
+
+Blockly.Blocks['lcd_write'] = {
+  init: function() {
+    this.appendDummyInput()
+        .appendField("아스키코드 값 출력")
+        .appendField(new Blockly.FieldTextInput(""), "content");
+    this.setPreviousStatement(true, null);
+    this.setNextStatement(true, null);
+    this.setColour(160);
+ this.setTooltip("lcd.write() 함수 블럭입니다.");
+ this.setHelpUrl("");
+  }
+};

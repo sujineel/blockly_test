@@ -288,6 +288,13 @@ Ardublockly.TOOLBOX_XML =
 '      <category id="catlcd" name="lcd">' +
 '        <block type="lcd"></block>'+
 '        <block type="lcd_text"></block>'+
+'        <block type="lcd_clear"></block>'+
+'        <block type="lcd_backlight"></block>'+
+'        <block type="lcd_noBacklight"></block>'+
+'        <block type="lcd_scrollDisplayRight"></block>'+
+'        <block type="lcd_scrollDisplayLeft"></block>'+
+'        <block type="lcd_autoscroll"></block>'+
+'        <block type="lcd_write"></block>'+
 '     </category>' +
 '  </category>'+
 '  <sep></sep>'+

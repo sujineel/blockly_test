@@ -10,9 +10,12 @@
 /******************/
 /*  Font sources  */
 /******************/
+/*
+@import url(//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
+*/
 @font-face {
-  font-family: "Droid Sans Mono";
-  src: url("font/droid/DroidSansMono.ttf") format("truetype");
+  font-family: "Nanumsquare";
+  src: url("font/NanumSquare_ac_TTF/NanumSquare_ac_TTF/NanumSquare_acB.ttf") format("truetype");
 }
 
 
@@ -409,7 +412,7 @@ ul.side-nav li.side-menu-end {
   background: rgba(98, 174, 178, .2) !important;  /* Arduino Light Teal */
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); 
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   transition: background 0.3s linear, box-shadow 0.3s linear, border-width 0.3s linear;
   -ms-transition: background 0.3s linear, box-shadow 0.3s linear, border-width 0.3s linear;
   -moz-transition: background 0.3s linear, -moz-box-shadow 0.3s linear, border-width 0.3s linear;
@@ -435,7 +438,7 @@ ul.side-nav li.side-menu-end {
   right: 0px !important;
   top: 0px !important;
   width: 55px !important;
-  height: 55px !important; 
+  height: 55px !important;
   z-index: 5;
 }
 .spinner-orange {
