@@ -1,13 +1,36 @@
 // Ardublockly generated sketch
+#include "DHT.h"
+#include <LiquidCrystal_I2C.h>
+
+#define DHTPIN8 8
+#define DHTTYPE DHT11
+DHT dht8(DHTPIN8 , DHTTYPE);
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
 void setup() {
-  pinMode(3, OUTPUT);
-  pinMode(5, OUTPUT);
-  pinMode(6, OUTPUT);
+  dht8.begin();
+  lcd.begin();
+  lcd.clear();
+
+
+  lcd.noBacklight();
+
 }
 
 void loop() {
-  analogWrite(3, 0);
-  analogWrite(5, 255);
-  analogWrite(6, 0);
+  float humid= dht8.readHumidity();
+  float temp= dht8.readTemperature();
+  int int_humid = (int)humid;
+  int int_temp = (int)temp;
+  lcd.setCursor(0,0);
+  lcd.print("H: ");
+  lcd.setCursor(6,0);
+  lcd.print(int_humid);
+  lcd.setCursor(0,1);
+  lcd.print("H: ");
+  lcd.setCursor(6,1);
+  lcd.print(int_temp);
+  lcd.backlight();
+  lcd.write(0x2F);
 
 }

@@ -355,3 +355,341 @@ Settings file saved to:
 	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
 
 2021-01-08T05:44:12.138Z - info: [ServerMgr] Server stopped.
+2021-01-20T03:06:53.984Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-01-20T03:06:53.988Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\bplab\github\blockly_test\ardublockly
+2021-01-20T03:06:53.988Z - info: [ArdublocklyElec] OS detected: win32
+2021-01-20T03:06:54.029Z - info: [ServerMgr] Command: C:\Users\bplab\github\blockly_test\ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-01-20T03:06:54.636Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\bplab\github\blockly_test\ardublockly
+Selected server root: C:\Users\bplab\github\blockly_test\ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM6
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\bplab\github\blockly_test\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-20T03:10:46.956Z - info: [ArdublocklySrv] 
+
+======= Starting Server =======
+
+Setting HTTP Server Document Root to: 
+	C:\Users\bplab\github\blockly_test\ardublockly
+
+Launching the HTTP service...
+
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM6 --board arduino:avr:uno C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 53067)
+----------------------------------------
+
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM6 --board arduino:avr:uno C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 53080)
+----------------------------------------
+
+IDE options set to:
+	Verify sketch
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-20T03:11:31.679Z - info: [ServerMgr] Server stopped.
+2021-01-20T03:11:31.690Z - info: [ArdublocklySrv] Process exited with code null
+2021-01-20T03:11:36.221Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-01-20T03:11:36.222Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\bplab\github\blockly_test\ardublockly
+2021-01-20T03:11:36.222Z - info: [ArdublocklyElec] OS detected: win32
+2021-01-20T03:11:36.274Z - info: [ServerMgr] Command: C:\Users\bplab\github\blockly_test\ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-01-20T03:11:36.608Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\bplab\github\blockly_test\ardublockly
+Selected server root: C:\Users\bplab\github\blockly_test\ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM6
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\bplab\github\blockly_test\ardublockly
+	Load IDE option: verify
+
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-20T03:13:32.051Z - info: [ArdublocklySrv] 
+
+======= Starting Server =======
+
+Setting HTTP Server Document Root to: 
+	C:\Users\bplab\github\blockly_test\ardublockly
+
+Launching the HTTP service...
+
+IDE options set to:
+	Compile and Upload sketch
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-20T03:14:21.149Z - info: [ArdublocklySrv] 
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM6 --board arduino:avr:uno C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 53232)
+----------------------------------------
+
+IDE options set to:
+	Open sketch in IDE
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-20T03:14:33.465Z - info: [ArdublocklySrv] 
+Opening the sketch in the Arduino IDE...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+
+IDE options set to:
+	Compile and Upload sketch
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-20T03:14:53.994Z - info: [ArdublocklySrv] 
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM6 --board arduino:avr:uno C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 53288)
+----------------------------------------
+
+IDE options set to:
+	Open sketch in IDE
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-20T04:26:52.196Z - info: [ServerMgr] Server stopped.
+2021-01-20T04:26:52.206Z - info: [ArdublocklySrv] Process exited with code null
+2021-01-20T04:27:09.085Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-01-20T04:27:09.086Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\bplab\github\blockly_test\ardublockly
+2021-01-20T04:27:09.086Z - info: [ArdublocklyElec] OS detected: win32
+2021-01-20T04:27:09.124Z - info: [ServerMgr] Command: C:\Users\bplab\github\blockly_test\ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-01-20T04:27:09.495Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\bplab\github\blockly_test\ardublockly
+Selected server root: C:\Users\bplab\github\blockly_test\ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM6
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\bplab\github\blockly_test\ardublockly
+	Load IDE option: open
+
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-20T04:29:09.061Z - info: [ArdublocklySrv] 
+
+======= Starting Server =======
+
+Setting HTTP Server Document Root to: 
+	C:\Users\bplab\github\blockly_test\ardublockly
+
+Launching the HTTP service...
+
+IDE options set to:
+	Compile and Upload sketch
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-20T04:30:11.625Z - info: [ArdublocklySrv] 
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM6 --board arduino:avr:uno C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 54495)
+----------------------------------------
+The "something" = ['else'] parameter is not recognised!
+
+Compiler directory set to:
+	C:\Program Files (x86)\Arduino\arduino.exe
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-20T04:30:35.732Z - info: [ArdublocklySrv] 
+IDE options set to:
+	Open sketch in IDE
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-20T04:31:07.357Z - info: [ArdublocklySrv] 
+Opening the sketch in the Arduino IDE...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+
+Opening the sketch in the Arduino IDE...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+
+IDE options set to:
+	Compile and Upload sketch
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-20T04:35:38.941Z - info: [ArdublocklySrv] 
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM6 --board arduino:avr:uno C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+Arduino output:
+Sketch uses 5610 bytes (17%) of program storage space. Maximum is 32256 bytes.
+Global variables use 279 bytes (13%) of dynamic memory, leaving 1769 bytes for local variables. Maximum is 2048 bytes.
+
+Arduino Error output:
+Loading configuration...
+Initializing packages...
+2021-01-20T04:31:09.099Z INFO c.a.u.n.HttpConnectionManager:153 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Connect to https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523, method=GET, request id=F737BA4CAF484F8E
+2021-01-20T04:31:09.987Z INFO c.a.u.n.HttpConnectionManager:157 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Request complete URL="https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523", method=GET, response code=404, request id=F737BA4CAF484F8E, headers={null=[HTTP/1.1 404 Not Found], Cache-Control=[no-cache, no-store, must-revalidate], Server=[nginx], Connection=[keep-alive], Vary=[Origin], Pragma=[no-cache], Expires=[0], Content-Length=[0], Date=[Wed, 20 Jan 2021 04:31:11 GMT]}
+2021-01-20T04:31:09.988Z WARN p.a.h.BoardCloudResolver:64 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Fail to get the Vid Pid information from the builder response code=404
+Preparing boards...
+Verifying...
+Uploading...
+
+Arduino Exit code: 0
+
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM6 --board arduino:avr:uno C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+Arduino output:
+Sketch uses 5624 bytes (17%) of program storage space. Maximum is 32256 bytes.
+Global variables use 279 bytes (13%) of dynamic memory, leaving 1769 bytes for local variables. Maximum is 2048 bytes.
+
+Arduino Error output:
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+2021-01-20T04:31:39.351Z INFO c.a.u.n.HttpConnectionManager:153 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Connect to https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523, method=GET, request id=986C5B98C616482A
+2021-01-20T04:31:40.326Z INFO c.a.u.n.HttpConnectionManager:157 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Request complete URL="https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523", method=GET, response code=404, request id=986C5B98C616482A, headers={null=[HTTP/1.1 404 Not Found], Cache-Control=[no-cache, no-store, must-revalidate], Server=[nginx], Connection=[keep-alive], Vary=[Origin], Pragma=[no-cache], Expires=[0], Content-Length=[0], Date=[Wed, 20 Jan 2021 04:31:41 GMT]}
+2021-01-20T04:31:40.326Z WARN p.a.h.BoardCloudResolver:64 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Fail to get the Vid Pid information from the builder response code=404
+Uploading...
+
+Arduino Exit code: 0
+
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM6 --board arduino:avr:uno C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+Arduino output:
+Sketch uses 5664 bytes (17%) of program storage space. Maximum is 32256 bytes.
+Global variables use 279 bytes (13%) of dynamic memory, leaving 1769 bytes for local variables. Maximum is 2048 bytes.
+
+Arduino Error output:
+Loading configuration...
+Initializing packages...
+Preparing boards...
+2021-01-20T04:32:10.093Z INFO c.a.u.n.HttpConnectionManager:153 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Connect to https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523, method=GET, request id=CAFF27C472364B9B
+Verifying...
+2021-01-20T04:32:11.125Z INFO c.a.u.n.HttpConnectionManager:157 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Request complete URL="https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523", method=GET, response code=404, request id=CAFF27C472364B9B, headers={null=[HTTP/1.1 404 Not Found], Cache-Control=[no-cache, no-store, must-revalidate], Server=[nginx], Connection=[keep-alive], Vary=[Origin], Pragma=[no-cache], Expires=[0], Content-Length=[0], Date=[Wed, 20 Jan 2021 04:32:12 GMT]}
+2021-01-20T04:32:11.126Z WARN p.a.h.BoardCloudResolver:64 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Fail to get the Vid Pid information from the builder response code=404
+Uploading...
+
+Arduino Exit code: 0
+
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM6 --board arduino:avr:uno C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+Arduino output:
+Sketch uses 5674 bytes (17%) of program storage space. Maximum is 32256 bytes.
+Global variables use 279 bytes (13%) of dynamic memory, leaving 1769 bytes for local variables. Maximum is 2048 bytes.
+
+Arduino Error output:
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+2021-01-20T04:34:23.934Z INFO c.a.u.n.HttpConnectionManager:153 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Connect to https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523, method=GET, request id=D96C30C5C68446D4
+2021-01-20T04:34:24.926Z INFO c.a.u.n.HttpConnectionManager:157 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Request complete URL="https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523", method=GET, response code=404, request id=D96C30C5C68446D4, headers={null=[HTTP/1.1 404 Not Found], Cache-Control=[no-cache, no-store, must-revalidate], Server=[nginx], Connection=[keep-alive], Vary=[Origin], Pragma=[no-cache], Expires=[0], Content-Length=[0], Date=[Wed, 20 Jan 2021 04:34:26 GMT]}
+2021-01-20T04:34:24.926Z WARN p.a.h.BoardCloudResolver:64 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Fail to get the Vid Pid information from the builder response code=404
+Uploading...
+
+Arduino Exit code: 0
+
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM6 --board arduino:avr:uno C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+Arduino output:
+Sketch uses 5686 bytes (17%) of program storage space. Maximum is 32256 bytes.
+Global variables use 279 bytes (13%) of dynamic memory, leaving 1769 bytes for local variables. Maximum is 2048 bytes.
+
+Arduino Error output:
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+2021-01-20T04:34:51.291Z INFO c.a.u.n.HttpConnectionManager:153 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Connect to https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523, method=GET, request id=E684E91991F2434B
+2021-01-20T04:34:52.228Z INFO c.a.u.n.HttpConnectionManager:157 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Request complete URL="https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523", method=GET, response code=404, request id=E684E91991F2434B, headers={null=[HTTP/1.1 404 Not Found], Cache-Control=[no-cache, no-store, must-revalidate], Server=[nginx], Connection=[keep-alive], Vary=[Origin], Pragma=[no-cache], Expires=[0], Content-Length=[0], Date=[Wed, 20 Jan 2021 04:34:53 GMT]}
+2021-01-20T04:34:52.228Z WARN p.a.h.BoardCloudResolver:64 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Fail to get the Vid Pid information from the builder response code=404
+Uploading...
+
+Arduino Exit code: 0
+
+Uploading sketch to Arduino...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe --upload --port COM6 --board arduino:avr:uno C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+Arduino output:
+Sketch uses 5674 bytes (17%) of program storage space. Maximum is 32256 bytes.
+Global variables use 279 bytes (13%) of dynamic memory, leaving 1769 bytes for local variables. Maximum is 2048 bytes.
+
+Arduino Error output:
+Loading configuration...
+Initializing packages...
+Preparing boards...
+Verifying...
+2021-01-20T04:35:30.922Z INFO c.a.u.n.HttpConnectionManager:153 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Connect to https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523, method=GET, request id=A6A15059BD704BF1
+2021-01-20T04:35:31.854Z INFO c.a.u.n.HttpConnectionManager:157 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Request complete URL="https://builder.arduino.cc/builder/v1/boards/0x1A86/0x7523", method=GET, response code=404, request id=A6A15059BD704BF1, headers={null=[HTTP/1.1 404 Not Found], Cache-Control=[no-cache, no-store, must-revalidate], Server=[nginx], Connection=[keep-alive], Vary=[Origin], Pragma=[no-cache], Expires=[0], Content-Length=[0], Date=[Wed, 20 Jan 2021 04:35:32 GMT]}
+2021-01-20T04:35:31.854Z WARN p.a.h.BoardCloudResolver:64 [cc.arduino.packages.discoverers.serial.SerialDiscovery] Fail to get the Vid Pid information from the builder response code=404
+Uploading...
+
+2021-01-20T04:37:53.957Z - info: [ServerMgr] Server stopped.
