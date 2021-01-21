@@ -1,13 +1,18 @@
 // Ardublockly generated sketch
+#include <Stepper.h>
+#include <Servo.h>
+
+int MyStepper[2] = {1, 2};
+
+Stepper stepper_MyStepper(360, 1, 2);
+Servo myServo3;
+
 void setup() {
-  pinMode(3, OUTPUT);
-  pinMode(5, OUTPUT);
-  pinMode(6, OUTPUT);
+  stepper_MyStepper.setSpeed(90);
+  myServo3.attach(3);
 }
 
 void loop() {
-  analogWrite(3, 0);
-  analogWrite(5, 255);
-  analogWrite(6, 0);
+  myServo3.write(90);
 
 }

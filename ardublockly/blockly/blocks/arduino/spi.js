@@ -17,7 +17,7 @@ goog.require('Blockly.Types');
 
 
 /** Common HSV hue for all blocks in this category. */
-Blockly.Blocks.spi.HUE = 170;
+//Blockly.Blocks.spi.HUE = 170;
 
 Blockly.Blocks['spi_setup'] = {
   /**
@@ -26,7 +26,7 @@ Blockly.Blocks['spi_setup'] = {
    */
   init: function() {
     this.setHelpUrl('http://arduino.cc/en/Reference/SPI');
-    this.setColour(Blockly.Blocks.spi.HUE);
+    this.setColour("00de7f");
     this.appendDummyInput()
         .appendField(Blockly.Msg.ARD_SPI_SETUP)
         .appendField(new Blockly.FieldDropdown(
@@ -88,7 +88,7 @@ Blockly.Blocks['spi_transfer'] = {
         Blockly.Arduino.Boards.selected.digitalPins);
 
     this.setHelpUrl('http://arduino.cc/en/Reference/SPITransfer');
-    this.setColour(Blockly.Blocks.spi.HUE);
+    this.setColour("00de7f");
     this.appendDummyInput()
         .appendField(new Blockly.FieldDropdown(
                 Blockly.Arduino.Boards.selected.spi), 'SPI_ID');
