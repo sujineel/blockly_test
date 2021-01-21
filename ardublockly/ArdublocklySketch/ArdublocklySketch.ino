@@ -12,9 +12,6 @@ void setup() {
   lcd.begin();
   lcd.clear();
 
-
-  lcd.noBacklight();
-
 }
 
 void loop() {
@@ -27,10 +24,8 @@ void loop() {
   lcd.setCursor(6,0);
   lcd.print(int_humid);
   lcd.setCursor(0,1);
-  lcd.print("H: ");
+  lcd.print("T: ");
   lcd.setCursor(6,1);
   lcd.print(int_temp);
-  lcd.backlight();
-  lcd.write(0x2F);
 
 }

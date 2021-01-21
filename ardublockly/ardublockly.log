@@ -779,3 +779,163 @@ Settings file saved to:
 
 2021-01-20T08:39:02.977Z - info: [ServerMgr] Server stopped.
 2021-01-20T08:39:02.987Z - info: [ArdublocklySrv] Process exited with code null
+2021-01-21T02:56:52.584Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-01-21T02:56:52.585Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\bplab\github\blockly_test\ardublockly
+2021-01-21T02:56:52.585Z - info: [ArdublocklyElec] OS detected: win32
+2021-01-21T02:56:52.630Z - info: [ServerMgr] Command: C:\Users\bplab\github\blockly_test\ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-01-21T02:56:53.342Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\bplab\github\blockly_test\ardublockly
+Selected server root: C:\Users\bplab\github\blockly_test\ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\bplab\github\blockly_test\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T04:54:35.885Z - info: [ArdublocklySrv] 
+
+======= Starting Server =======
+
+Setting HTTP Server Document Root to: 
+	C:\Users\bplab\github\blockly_test\ardublockly
+
+Launching the HTTP service...
+
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T04:54:52.463Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T04:54:57.118Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T04:55:13.525Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T04:55:16.289Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T04:55:18.803Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T04:55:30.329Z - info: [ArdublocklySrv] 
+IDE options set to:
+	Open sketch in IDE
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T04:55:40.011Z - info: [ArdublocklySrv] 
+Opening the sketch in the Arduino IDE...
+CLI command: C:\Program Files (x86)\Arduino\arduino.exe C:\Users\bplab\github\blockly_test\ardublockly\ArdublocklySketch\ArdublocklySketch.ino
+
+IDE options set to:
+	Compile and Upload sketch
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T04:55:40.316Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T04:55:45.133Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T04:55:54.431Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T04:55:58.327Z - info: [ArdublocklySrv] 
+The selected Serial Port is no longer available !!!
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T04:56:00.788Z - info: [ArdublocklySrv] 
+Serial Port set to:
+	COM6
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T04:57:48.478Z - info: [ServerMgr] Server stopped.
+2021-01-21T04:57:48.490Z - info: [ArdublocklySrv] Process exited with code null
+2021-01-21T04:57:58.588Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-01-21T04:57:58.589Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\bplab\github\blockly_test\ardublockly
+2021-01-21T04:57:58.589Z - info: [ArdublocklyElec] OS detected: win32
+2021-01-21T04:57:58.646Z - info: [ServerMgr] Command: C:\Users\bplab\github\blockly_test\ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-01-21T04:57:59.064Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\bplab\github\blockly_test\ardublockly
+Selected server root: C:\Users\bplab\github\blockly_test\ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: COM6
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\bplab\github\blockly_test\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-21T05:26:50.816Z - info: [ServerMgr] Server stopped.
+2021-01-21T05:26:50.825Z - info: [ArdublocklySrv] Process exited with code null
