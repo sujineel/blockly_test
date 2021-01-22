@@ -19,7 +19,7 @@ goog.require('Blockly.Types');
 
 
 /** Common HSV hue for all blocks in this category. */
-Blockly.Blocks.servo.HUE = 60;
+
 
 Blockly.Blocks['servo_write'] = {
   /**
@@ -28,7 +28,7 @@ Blockly.Blocks['servo_write'] = {
    */
   init: function() {
     this.setHelpUrl('http://arduino.cc/en/Reference/ServoWrite');
-    this.setColour(Blockly.Blocks.servo.HUE);
+    this.setColour("#00de7f");
     this.appendDummyInput()
         .appendField(Blockly.Msg.ARD_SERVO_WRITE)
         .appendField(new Blockly.FieldDropdown(
@@ -61,7 +61,7 @@ Blockly.Blocks['servo_read'] = {
    */
   init: function() {
     this.setHelpUrl('http://arduino.cc/en/Reference/ServoRead');
-    this.setColour(Blockly.Blocks.servo.HUE);
+    this.setColour("#00de7f");
     this.appendDummyInput()
         .appendField(Blockly.Msg.ARD_SERVO_READ)
         .appendField(new Blockly.FieldDropdown(

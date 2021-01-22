@@ -33,7 +33,6 @@ goog.require('Blockly.Types');
 /**
  * Common HSV hue for all blocks in this category.
  */
-Blockly.Blocks.logic.HUE = 210;
 
 Blockly.Blocks['controls_if'] = {
   /**
@@ -42,7 +41,7 @@ Blockly.Blocks['controls_if'] = {
    */
   init: function() {
     this.setHelpUrl(Blockly.Msg.CONTROLS_IF_HELPURL);
-    this.setColour(Blockly.Blocks.logic.HUE);
+    this.setColour("005bf6");
     this.appendValueInput('IF0')
         .setCheck(Blockly.Types.BOOLEAN.checkList)
         .appendField(Blockly.Msg.CONTROLS_IF_MSG_IF);

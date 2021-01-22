@@ -1,4 +1,5 @@
 // Ardublockly generated sketch
+<<<<<<< HEAD
 #include "DHT.h"
 #include <LiquidCrystal_I2C.h>
 
@@ -27,5 +28,22 @@ void loop() {
   lcd.print("T: ");
   lcd.setCursor(6,1);
   lcd.print(int_temp);
+=======
+#include <Stepper.h>
+#include <Servo.h>
+
+int MyStepper[2] = {1, 2};
+
+Stepper stepper_MyStepper(360, 1, 2);
+Servo myServo3;
+
+void setup() {
+  stepper_MyStepper.setSpeed(90);
+  myServo3.attach(3);
+}
+
+void loop() {
+  myServo3.write(90);
+>>>>>>> master
 
 }

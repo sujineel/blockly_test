@@ -296,6 +296,10 @@ Ardublockly.TOOLBOX_XML =
 '        <block type="lcd_autoscroll"></block>'+
 '        <block type="lcd_write"></block>'+
 '     </category>' +
+'     <category id="cat7segment" name="7segment">' +
+'        <block type="sevensegment"></block>'+
+'        <block type="setbrightness"></block>'+
+'        <block type="showNumberDec"></block>'+
 '  </category>'+
 '  <sep></sep>'+
 '</xml>';
