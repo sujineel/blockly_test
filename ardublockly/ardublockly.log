@@ -939,3 +939,105 @@ Settings file saved to:
 
 2021-01-21T05:26:50.816Z - info: [ServerMgr] Server stopped.
 2021-01-21T05:26:50.825Z - info: [ArdublocklySrv] Process exited with code null
+2021-01-22T07:21:38.727Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-01-22T07:21:38.728Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\bplab\github\blockly_test\ardublockly
+2021-01-22T07:21:38.728Z - info: [ArdublocklyElec] OS detected: win32
+2021-01-22T07:21:38.758Z - info: [ServerMgr] Command: C:\Users\bplab\github\blockly_test\ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-01-22T07:21:39.185Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\bplab\github\blockly_test\ardublockly
+Selected server root: C:\Users\bplab\github\blockly_test\ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+Settings file Serial Port is not currently available:
+	COM6
+Default Serial Port set:
+	None
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\bplab\github\blockly_test\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-22T07:21:57.670Z - info: [ServerMgr] Server stopped.
+2021-01-22T07:21:57.677Z - info: [ArdublocklySrv] Process exited with code null
+2021-01-22T07:22:15.014Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-01-22T07:22:15.015Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\bplab\github\blockly_test\ardublockly
+2021-01-22T07:22:15.015Z - info: [ArdublocklyElec] OS detected: win32
+2021-01-22T07:22:15.068Z - info: [ServerMgr] Command: C:\Users\bplab\github\blockly_test\ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-01-22T07:22:15.397Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\bplab\github\blockly_test\ardublockly
+Selected server root: C:\Users\bplab\github\blockly_test\ardublockly
+
+
+======= Loading Settings =======
+
+Settings loaded from:
+	 C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+Settings file Serial Port is not currently available:
+	None
+Default Serial Port set:
+	None
+
+Final settings loaded:
+	Compiler directory: C:\Program Files (x86)\Arduino\arduino.exe
+	Arduino Board Key: Uno
+	Arduino Board Value: arduino:avr:uno
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\bplab\github\blockly_test\ardublockly
+	Load IDE option: upload
+
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-22T07:23:50.841Z - info: [ArdublocklySrv] 
+
+======= Starting Server =======
+
+Setting HTTP Server Document Root to: 
+	C:\Users\bplab\github\blockly_test\ardublockly
+
+Launching the HTTP service...
+
+Provided Serial Port is not valid: !!!
+	no_ports
+Default Serial Port set:
+	None
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-22T07:25:03.935Z - info: [ServerMgr] Server stopped.
+2021-01-22T07:25:03.948Z - info: [ArdublocklySrv] Process exited with code null
