@@ -20,6 +20,7 @@ Blockly.Arduino['sevensegment'] = function(block) {
   '#define DIO'+' '+ DIO+'\n' +
   'TM1637Display dsp'+'('+ CLK +' '+' ,'+ DIO+ ');\n' );
 
+
   var code;
 
   return code;
@@ -27,6 +28,9 @@ Blockly.Arduino['sevensegment'] = function(block) {
 
 Blockly.Arduino['setbrightness'] = function(block) {
   var bright = block.getFieldValue('bright');
+
+  var setupCode = 'dsp.setBrightness(' + bright+ ');\n';
+  Blockly.Arduino.addSetup('sevensegment_' , setupCode, true);
 
   var code = 'dsp.setBrightness(' + bright+ ');\n';
   return code;
