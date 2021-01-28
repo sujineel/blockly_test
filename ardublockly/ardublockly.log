@@ -1700,3 +1700,43 @@ Settings file saved to:
 
 2021-01-15T07:56:35.703Z - info: [ServerMgr] Server stopped.
 >>>>>>> master
+2021-01-28T07:22:16.146Z - info: [ArdublocklyElec] Starting Ardublockly version: 0.1.2
+2021-01-28T07:22:16.148Z - info: [ArdublocklyElec] Ardublockly root dir: C:\Users\bplab\github\blockly_test\ardublockly
+2021-01-28T07:22:16.148Z - info: [ArdublocklyElec] OS detected: win32
+2021-01-28T07:22:17.456Z - info: [ServerMgr] Command: C:\Users\bplab\github\blockly_test\ardublockly\arduexec\server\start.exe --findprojectroot --nobrowser
+2021-01-28T07:22:18.549Z - info: [ArdublocklySrv] Running Python 3.4.4 (32 bit) on Windows-10-10.0.19041
+
+
+======= Parsing Command line arguments =======
+
+Parsed "--findprojectroot" flag. The ardublockly project root will be set as the server root directory.
+Parsed "--nobrowser" flag. No browser will be opened.
+
+
+======= Resolving server and project paths =======
+
+Ardublockly root directory: C:\Users\bplab\github\blockly_test\ardublockly
+Selected server root: C:\Users\bplab\github\blockly_test\ardublockly
+
+
+======= Loading Settings =======
+
+Settings file corrupted or not found in:
+	 C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+Settings will be set to the default values.
+
+Final settings loaded:
+	Compiler directory: None
+	Arduino Board Key: Atmel atmega168pb Xplained mini
+	Arduino Board Value: atmel:avr:atmega168pb_xplained_mini
+	Serial Port Value: None
+	Sketch Name: ArdublocklySketch
+	Sketch Directory: C:\Users\bplab\github\blockly_test\ardublockly
+	Load IDE option: open
+
+Settings file saved to:
+	C:\Users\bplab\github\blockly_test\ardublockly\ServerCompilerSettings.ini
+
+2021-01-28T07:30:54.860Z - info: [ServerMgr] Server stopped.
+2021-01-28T07:30:54.871Z - info: [ArdublocklySrv] Process exited with code null
