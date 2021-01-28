@@ -11,7 +11,7 @@ goog.require('Blockly.Arduino');
 Blockly.Arduino['sevensegment'] = function(block) {
   var CLK = block.getFieldValue('CLK');
   var DIO = block.getFieldValue('DIO');
-
+  var bright = block.getFieldValue('bright');
   //Blockly.Arduino.reservePin(block, dhtpin, Blockly.Arduino.PinTypes.dht, 'dhtpin');
 
   Blockly.Arduino.addInclude('sevensegment', '#include <TM1637Display.h>');
@@ -19,7 +19,8 @@ Blockly.Arduino['sevensegment'] = function(block) {
   Blockly.Arduino.addDeclaration('sevensegment_', '#define CLK'+' '+CLK +'\n' +
   '#define DIO'+' '+ DIO+'\n' +
   'TM1637Display dsp'+'('+ CLK +' '+' ,'+ DIO+ ');\n' );
-
+  var setupCode = 'dsp.setBrightness(' + bright+ ');\n';
+  Blockly.Arduino.addSetup('sevensegment_' , setupCode, true);
 
   var code;
 
@@ -28,9 +29,6 @@ Blockly.Arduino['sevensegment'] = function(block) {
 
 Blockly.Arduino['setbrightness'] = function(block) {
   var bright = block.getFieldValue('bright');
-
-  var setupCode = 'dsp.setBrightness(' + bright+ ');\n';
-  Blockly.Arduino.addSetup('sevensegment_' , setupCode, true);
 
   var code = 'dsp.setBrightness(' + bright+ ');\n';
   return code;

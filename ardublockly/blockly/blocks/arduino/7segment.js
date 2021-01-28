@@ -31,6 +31,9 @@ Blockly.Blocks['sevensegment'] = {
         .appendField("  DIO")
         .appendField(new Blockly.FieldDropdown(
             Blockly.Arduino.Boards.selected.digitalPins), 'DIO');
+    this.appendDummyInput()
+        .appendField("  밝기")
+        .appendField(new Blockly.FieldNumber(2, 0, 7, 2), "bright");
     this.setInputsInline(true);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
