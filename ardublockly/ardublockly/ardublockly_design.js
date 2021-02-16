@@ -53,7 +53,7 @@ Ardublockly.bindDesignEventListeners = function() {
   document.getElementById('xml_collapsible_header').addEventListener(
       'click', Ardublockly.buttonLoadXmlCodeDisplay);
   // Toggle the content height on click to the IDE output collapsible header
-  document.getElementById('ide_output_collapsible_header').addEventListener(
+  document.getElementById('showcontent').addEventListener(
       'click', function() {
         Ardublockly.contentHeightToggle();
       });
@@ -396,6 +396,30 @@ Ardublockly.resetIdeOutputContent = function(bodyEl) {
       Ardublockly.getLocalStr('arduinoOpWaiting') + '</span>';
 };
 
+function openTextFile() {
+    var input = document.createElement("input");
+    input.type = "file";
+    input.accept = "text/plain"; // 확장자가 xxx, yyy 일때, ".xxx, .yyy"
+
+    input.onchange = function (event) {
+
+        processFile(event.target.files[0]);
+
+    };
+
+    input.click();
+}
+
+function processFile(file) {
+    var reader = new FileReader();
+
+    reader.onload = function (e) {
+        content_ide_output.innerText = reader.result;
+    };
+    reader.readAsText(file, /* optional */ "euc-kr");
+
+}
+
 /**
  * Initialises the sketch name input text JavaScript to dynamically adjust its
  * width to the width of its contents.
@@ -459,7 +483,7 @@ Ardublockly.highlightIdeOutputHeader = function() {
  * so this class is consulted to shrink or expand the content height.
  */
 Ardublockly.contentHeightToggle = function() {
-  var outputHeader = document.getElementById('ide_output_collapsible_header');
+  var outputHeader = document.getElementById('showcontent');
   var blocks = document.getElementById('blocks_panel');
   var arduino = document.getElementById('content_arduino');
   var xml = document.getElementById('content_xml');

@@ -1,6 +1,6 @@
 /**
  * @license Licensed under the Apache License, Version 2.0 (the "License"):
- *          http://www.apache.org/licenses/LICENSE-2.0
+ *          http://www.apache.org/licenses/LICENSE-2.0ide_output_wrapper
  *
  * @fileoverview CSS file for the Ardublockly application.
  *
@@ -218,8 +218,13 @@ ul.side-nav li.side-menu-end {
   bottom: -16px;
   z-index: 10;
 }
-
+/* . class*/
 .ide_output_collapsible {
+  box-shadow: 0 0px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-left: 0;
+  border-right: 0;
+}
+.translatable_arduinoOpMainTitle {
   box-shadow: 0 0px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-left: 0;
   border-right: 0;
