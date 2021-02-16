@@ -158,7 +158,7 @@ ul.side-nav li.side-menu-end {
   outline: none;
   border: none;
   padding: 0px 5px;
-  font-family: monospace;
+  font-family: "NanumSquare";
   font-size: smaller;
   overflow: scroll;
   font-style: 0.2em !important;
@@ -185,7 +185,7 @@ ul.side-nav li.side-menu-end {
   border: none;
   padding: 0px 5px;
   font-size: 0.9rem;
-  font-family: "Droid Sans Mono", monospace;
+  font-family: "NanumSquare", monospace;
   overflow: auto;
   -moz-user-select: text;
   -khtml-user-select: text;
@@ -245,13 +245,40 @@ ul.side-nav li.side-menu-end {
   -o-transition: background-color 0.6s ease-in;
   -webkit-transition: background-color 0.6s ease-in;
 }
+.serial-monitor-space {
+  background-color: #006468;
+}
+.serial_print_btn {
+  width:100px;
+  background-color: #ffffff;
+  border: none;
+  color: #006468;
+  padding: 2px 0;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  font-family: "NanumSquare"
+  font-weight: bold;
+}
+.serial_pause_btn {
+  width:50px;
+  background-color: #ffffff;
+  border: none;
+  color: #006468;
+  padding: 2px 0;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  font-family: "NanumSquare"
+  font-weight: bold;
+}
 
 #content_ide_output {
   resize: none;
   outline: none;
   border: none;
   padding: 0px 5px;
-  font-family: monospace;
+  font-family: "NamumSquare";
   overflow: auto;
   font-style: 0.2em !important;
   min-height: 160px;
